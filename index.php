@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>Index - Medicio Bootstrap Template</title>
-  <meta name="description" content="">
-  <meta name="keywords" content="">
+  <title>DCU Medical - Tu Salud Digital</title>
+  <meta name="description" content="Gestiona tus reportes médicos y reserva citas en hospitales de forma segura y eficiente">
+  <meta name="keywords" content="historial médico, reserva de citas, salud digital, reportes médicos, hospitales, citas médicas">
 
   <!-- Favicons -->
   <link href="assets/img/favicon.png" rel="icon">
@@ -44,39 +44,30 @@
     <div class="branding d-flex align-items-center">
 
       <div class="container position-relative d-flex align-items-center justify-content-end">
-        <a href="index.html" class="logo d-flex align-items-center me-auto">
-          <img src="assets/img/logo.png" alt="">
+        <a href="index.php" class="logo d-flex align-items-center me-auto">
+          <img src="assets/img/logo.png" alt="DCU Medical">
           <!-- Uncomment the line below if you also wish to use a text logo -->
-          <!-- <h1 class="sitename">Medicio</h1>  -->
+        <h1 class="sitename">DCU Medical</h1>
         </a>
 
         <nav id="navmenu" class="navmenu">
           <ul>
-            <li><a href="#hero" class="active">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li class="dropdown"><a href="#"><span>Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+            <li><a href="#hero" class="active">Inicio</a></li>
+            <li><a href="#about">Acerca de</a></li>
+            <li class="dropdown"><a href="#"><span>Servicios</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
               <ul>
-                <li><a href="#">Dropdown 1</a></li>
-                <li class="dropdown"><a href="#"><span>Deep Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-                  <ul>
-                    <li><a href="#">Deep Dropdown 1</a></li>
-                    <li><a href="#">Deep Dropdown 2</a></li>
-                    <li><a href="#">Deep Dropdown 3</a></li>
-                    <li><a href="#">Deep Dropdown 4</a></li>
-                    <li><a href="#">Deep Dropdown 5</a></li>
-                  </ul>
-                </li>
-                <li><a href="#">Dropdown 2</a></li>
-                <li><a href="#">Dropdown 3</a></li>
-                <li><a href="#">Dropdown 4</a></li>
+                <li><a href="#featured-services">Reportes Médicos</a></li>
+                <li><a href="#services">Reserva de Citas</a></li>
+                <li><a href="#doctors">Hospitales Asociados</a></li>
+                <li><a href="#contact">Soporte 24/7</a></li>
               </ul>
             </li>
-            <li><a href="#contact">Contact</a></li>
+            <li><a href="#contact">Contacto</a></li>
           </ul>
           <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
         </nav>
-        <a class="cta-btn" href="pages/autentication/login.html">Login</a>
-        <a class="cta-btn" href="pages/autentication/register.html">Sing Up</a>
+        <a class="cta-btn" href="pages/autentication/login.php">Iniciar Sesión</a>
+        <a class="cta-btn" href="pages/autentication/register.php">Registrarse</a>
 
       </div>
 
@@ -92,29 +83,29 @@
       <div id="hero-carousel" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="5000">
 
         <div class="carousel-item active">
-          <img src="assets/img/hero-carousel/hero-carousel-1.jpg" alt="">
+          <img src="assets/img/hero-carousel/hero-carousel-1.jpg" alt="Gestión de salud digital">
           <div class="container">
-            <h2>Welcome to Medicio</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-            <a href="#about" class="btn-get-started">Read More</a>
+            <h2>Tu Historia Médica, Siempre Contigo</h2>
+            <p>Accede a tus reportes médicos desde cualquier lugar, en cualquier momento. DCU Medical te permite almacenar de forma segura tu historial clínico y compartirlo con profesionales de la salud autorizados.</p>
+            <a href="pages/autentication/register.php" class="btn-get-started">Crear Cuenta Gratis</a>
           </div>
         </div><!-- End Carousel Item -->
 
         <div class="carousel-item">
-          <img src="assets/img/hero-carousel/hero-carousel-2.jpg" alt="">
+          <img src="assets/img/hero-carousel/hero-carousel-2.jpg" alt="Reserva de citas médicas">
           <div class="container">
-            <h2>At vero eos et accusamus</h2>
-            <p>Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut.</p>
-            <a href="#about" class="btn-get-started">Read More</a>
+            <h2>Reserva Citas Fácilmente</h2>
+            <p>Encuentra y reserva citas con especialistas en hospitales asociados. Programación flexible, recordatorios automáticos y cancelación sencilla. Tu salud merece la mejor atención.</p>
+            <a href="pages/autentication/register.php" class="btn-get-started">Reservar Mi Primera Cita</a>
           </div>
         </div><!-- End Carousel Item -->
 
         <div class="carousel-item">
-          <img src="assets/img/hero-carousel/hero-carousel-3.jpg" alt="">
+          <img src="assets/img/hero-carousel/hero-carousel-3.jpg" alt="Seguridad y privacidad">
           <div class="container">
-            <h2>Temporibus autem quibusdam</h2>
-            <p>Beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt omnis iste natus error sit voluptatem accusantium.</p>
-            <a href="#about" class="btn-get-started">Read More</a>
+            <h2>Seguridad y Privacidad Garantizada</h2>
+            <p>Tu información médica está protegida con encriptación de grado médico. Cumplimos con los más altos estándares de seguridad y privacidad para garantizar la confidencialidad de tus datos.</p>
+            <a href="#about" class="btn-get-started">Conocer Más</a>
           </div>
         </div><!-- End Carousel Item -->
 
@@ -141,33 +132,33 @@
 
           <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="100">
             <div class="service-item position-relative">
-              <div class="icon"><i class="fas fa-heartbeat icon"></i></div>
-              <h4><a href="" class="stretched-link">Lorem Ipsum</a></h4>
-              <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
+              <div class="icon"><i class="fas fa-file-medical icon"></i></div>
+              <h4><a href="" class="stretched-link">Reportes Digitales</a></h4>
+              <p>Almacena y organiza todos tus exámenes, diagnósticos y tratamientos en un solo lugar seguro</p>
             </div>
           </div><!-- End Service Item -->
 
           <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="200">
             <div class="service-item position-relative">
-              <div class="icon"><i class="fas fa-pills icon"></i></div>
-              <h4><a href="" class="stretched-link">Sed ut perspici</a></h4>
-              <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore</p>
+              <div class="icon"><i class="fas fa-calendar-check icon"></i></div>
+              <h4><a href="" class="stretched-link">Reserva de Citas</a></h4>
+              <p>Programa citas médicas en hospitales asociados con solo unos clics, disponible 24/7</p>
             </div>
           </div><!-- End Service Item -->
 
           <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="300">
             <div class="service-item position-relative">
-              <div class="icon"><i class="fas fa-thermometer icon"></i></div>
-              <h4><a href="" class="stretched-link">Magni Dolores</a></h4>
-              <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia</p>
+              <div class="icon"><i class="fas fa-shield-alt icon"></i></div>
+              <h4><a href="" class="stretched-link">Seguridad Total</a></h4>
+              <p>Encriptación de grado médico para proteger tu información de salud más sensible</p>
             </div>
           </div><!-- End Service Item -->
 
           <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="400">
             <div class="service-item position-relative">
-              <div class="icon"><i class="fas fa-dna icon"></i></div>
-              <h4><a href="" class="stretched-link">Nemo Enim</a></h4>
-              <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis</p>
+              <div class="icon"><i class="fas fa-hospital icon"></i></div>
+              <h4><a href="" class="stretched-link">Red Hospitalaria</a></h4>
+              <p>Acceso a una red de hospitales y clínicas asociadas con especialistas calificados</p>
             </div>
           </div><!-- End Service Item -->
 
@@ -184,14 +175,14 @@
     <div class="container footer-top">
       <div class="row gy-4">
         <div class="col-lg-4 col-md-6 footer-about">
-          <a href="index.html" class="logo d-flex align-items-center">
-            <span class="sitename">Medicio</span>
+          <a href="index.php" class="logo d-flex align-items-center">
+            <span class="sitename">DCU Medical</span>
           </a>
           <div class="footer-contact pt-3">
-            <p>A108 Adam Street</p>
-            <p>New York, NY 535022</p>
-            <p class="mt-3"><strong>Phone:</strong> <span>+1 5589 55488 55</span></p>
-            <p><strong>Email:</strong> <span>info@example.com</span></p>
+            <p>Tu plataforma de salud digital confiable</p>
+            <p>Gestión segura de historiales médicos y reservas de citas</p>
+            <p class="mt-3"><strong>Teléfono:</strong> <span>+1 800 555 1234</span></p>
+            <p><strong>Email:</strong> <span>soporte@dcumedical.com</span></p>
           </div>
           <div class="social-links d-flex mt-4">
             <a href=""><i class="bi bi-twitter-x"></i></a>
@@ -202,46 +193,46 @@
         </div>
 
         <div class="col-lg-2 col-md-3 footer-links">
-          <h4>Useful Links</h4>
+          <h4>Enlaces Rápidos</h4>
           <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About us</a></li>
-            <li><a href="#">Services</a></li>
-            <li><a href="#">Terms of service</a></li>
-            <li><a href="#">Privacy policy</a></li>
+            <li><a href="#hero">Inicio</a></li>
+            <li><a href="#about">Acerca de</a></li>
+            <li><a href="#featured-services">Servicios</a></li>
+            <li><a href="#">Términos de servicio</a></li>
+            <li><a href="#">Política de privacidad</a></li>
           </ul>
         </div>
 
         <div class="col-lg-2 col-md-3 footer-links">
-          <h4>Our Services</h4>
+          <h4>Nuestros Servicios</h4>
           <ul>
-            <li><a href="#">Web Design</a></li>
-            <li><a href="#">Web Development</a></li>
-            <li><a href="#">Product Management</a></li>
-            <li><a href="#">Marketing</a></li>
-            <li><a href="#">Graphic Design</a></li>
+            <li><a href="#">Historial Médico Digital</a></li>
+            <li><a href="#">Reserva de Citas</a></li>
+            <li><a href="#">Recordatorios Automáticos</a></li>
+            <li><a href="#">Compartir con Especialistas</a></li>
+            <li><a href="#">Soporte Médico 24/7</a></li>
           </ul>
         </div>
 
         <div class="col-lg-2 col-md-3 footer-links">
-          <h4>Hic solutasetp</h4>
+          <h4>Hospitales Asociados</h4>
           <ul>
-            <li><a href="#">Molestiae accusamus iure</a></li>
-            <li><a href="#">Excepturi dignissimos</a></li>
-            <li><a href="#">Suscipit distinctio</a></li>
-            <li><a href="#">Dilecta</a></li>
-            <li><a href="#">Sit quas consectetur</a></li>
+            <li><a href="#">Hospital Central</a></li>
+            <li><a href="#">Clínica Especializada</a></li>
+            <li><a href="#">Centro Médico Avanzado</a></li>
+            <li><a href="#">Hospital Pediátrico</a></li>
+            <li><a href="#">Clínica de Especialidades</a></li>
           </ul>
         </div>
 
         <div class="col-lg-2 col-md-3 footer-links">
-          <h4>Nobis illum</h4>
+          <h4>Especialidades</h4>
           <ul>
-            <li><a href="#">Ipsam</a></li>
-            <li><a href="#">Laudantium dolorum</a></li>
-            <li><a href="#">Dinera</a></li>
-            <li><a href="#">Trodelas</a></li>
-            <li><a href="#">Flexo</a></li>
+            <li><a href="#">Cardiología</a></li>
+            <li><a href="#">Pediatría</a></li>
+            <li><a href="#">Dermatología</a></li>
+            <li><a href="#">Ginecología</a></li>
+            <li><a href="#">Ortopedia</a></li>
           </ul>
         </div>
 
@@ -249,13 +240,13 @@
     </div>
 
     <div class="container copyright text-center mt-4">
-      <p>© <span>Copyright</span> <strong class="px-1 sitename">DCU Medical 2025</strong> <span>All Rights Reserved</span></p>
+      <p>© <span>Copyright</span> <strong class="px-1 sitename">DCU Medical 2025</strong> <span>Todos los derechos reservados</span></p>
       <div class="credits">
         <!-- All the links in the footer should remain intact. -->
         <!-- You can delete the links only if you've purchased the pro version. -->
         <!-- Licensing information: https://bootstrapmade.com/license/ -->
         <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
-        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+        Diseñado por <a href="https://bootstrapmade.com/">BootstrapMade</a>
       </div>
     </div>
 

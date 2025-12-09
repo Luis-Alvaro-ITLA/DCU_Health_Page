@@ -21,19 +21,19 @@
                                     <div class="card-header"><h3 class="text-center font-weight-light my-4">Recuperar Contraseña</h3></div>
                                     <div class="card-body">
                                         <div class="small mb-3 text-muted">Ingrese su dirección de correo electrónico y le enviaremos un enlace para restablecer su contraseña.</div>
-                                        <form>
-                                            <div class="form-floating mb-3">
-                                                <input class="form-control" id="inputEmail" type="email" placeholder="nombre@ejemplo.com" />
-                                                <label for="inputEmail">Correo electrónico</label>
-                                            </div>
-                                            <div class="d-flex align-items-center justify-content-between mt-4 mb-0">
-                                                <a class="small" href="login.html">Volver a iniciar sesión</a>
-                                                <a class="btn btn-primary" href="login.html">Restablecer Contraseña</a>
-                                            </div>
-                                        </form>
-                                    </div>
+                                            <form action="/process/recover_process.php" method="POST">
+                                                <div class="form-floating mb-3">
+                                                    <input class="form-control" name="email" type="email" required />
+                                                    <label>Correo electrónico</label>
+                                                </div>
+                                                <div class="d-flex align-items-center justify-content-between mt-4 mb-0">
+                                                    <a class="small" href="login.php">Volver a iniciar sesión</a>
+                                                    <button class="btn btn-primary" type="submit">Enviar enlace</button>
+                                                </div>
+                                            </form>
+                                        </div>
                                     <div class="card-footer text-center py-3">
-                                        <div class="small"><a href="register.html">¿Necesita una cuenta? ¡Regístrese!</a></div>
+                                        <div class="small"><a href="register.php">¿Necesita una cuenta? ¡Regístrese!</a></div>
                                     </div>
                                 </div>
                             </div>
@@ -45,7 +45,7 @@
                 <footer class="py-4 bg-light mt-auto">
                     <div class="container-fluid px-4">
                         <div class="d-flex align-items-center justify-content-between small">
-                            <div class="text-muted">Copyright &copy; Su Sitio Web 2023</div>
+                            <div class="text-muted">Copyright &copy; DCU Medical 2025</div>
                             <div>
                                 <a href="#">Política de Privacidad</a>
                                 &middot;
