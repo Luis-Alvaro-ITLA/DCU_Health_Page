@@ -11,7 +11,7 @@ $user = $stmt->fetch();
 
 if (!$user || !password_verify($password, $user['password'])) {
     $_SESSION['error'] = "Correo o contraseña incorrectos.";
-    header("Location: /auth/login.php");
+    header("Location: /pages/atentication/login.php");
     exit;
 }
 

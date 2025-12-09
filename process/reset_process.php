@@ -20,5 +20,5 @@ $pdo->prepare("UPDATE users SET password = ? WHERE email = ?")->execute([$pass_h
 
 $pdo->prepare("DELETE FROM password_resets WHERE email = ?")->execute([$email]);
 
-header("Location: /autentication/login.php");
+header("Location: /pages/autentication/login.php");
 exit;

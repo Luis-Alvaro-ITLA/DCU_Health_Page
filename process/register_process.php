@@ -16,5 +16,5 @@ $pass_hash = password_hash($password, PASSWORD_BCRYPT);
 $stmt = $pdo->prepare("INSERT INTO users (nombre, email, password) VALUES (?, ?, ?)");
 $stmt->execute(["$nombre $apellido", $email, $pass_hash]);
 
-header("Location: /autentication/login.php");
+header("Location: /pages/autentication/login.php");
 exit;
