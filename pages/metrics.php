@@ -1,11 +1,9 @@
 <?php
-// pages/metrics.php - Gestión de métricas médicas del paciente
 session_start();
 require_once "../db/db.php";
 
 if (!isset($_SESSION['user_id']) || $_SESSION['role'] !== 'patient') {
-    header('Location: ../pages/autentication/login.php');
-    exit;
+    header('Location: ../autentication/login.php');
 }
 
 $userId = (int)$_SESSION['user_id'];
@@ -111,14 +109,15 @@ if (!empty($metricas)) {
     }
 }
 ?>
+
 <!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Mis Estadísticas - DCU Medical</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css" rel="stylesheet">
+    <link href="../assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 </head>
 <body>
